@@ -34,3 +34,5 @@ if age > 18 :
   st.write("Vous êtes majeur")
 else : 
   st.write("Vous êtes mineur")
+
+python snake_game.py
