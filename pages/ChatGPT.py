@@ -9,7 +9,7 @@ open_key = st.sidebar.text_input("Tape une clé")
 import os
 from openai import OpenAI
 
-client = OpenAI(api_key=OpenAIKEY)
+client = OpenAI(api_key=openai_key)
 
 
 chat_completion = client.chat.completions.create(
@@ -53,7 +53,7 @@ chat_completion = client.chat.completions.create(
 
          {
             "role": "user",
-            "content": prompt,
+            "content": user_input,
         },
     ],
     model="gpt-3.5-turbo",
