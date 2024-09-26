@@ -17,7 +17,7 @@ client = OpenAI(api_key=sidebar_input)
 prompt = "A cute baby sea otter"
 
 image = client.images.generate(
-    model="dall-e-2",
+    model="dall-e-3",
     prompt=text_input,
     size="512x512",
     quality="standard",
