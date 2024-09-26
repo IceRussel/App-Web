@@ -23,3 +23,6 @@ st.sidebar.title("Koba la D aka Marcel Junior Loutarila")
 
 # Vidéo dans la sidebare
 st.sidebar.video("https://www.youtube.com/watch?v=-C9Izxw3rOw")
+
+# Select Bare
+student_grad = st.selectbox("Selectionner votre niveau d'étude", ["Bac", "Bac+2", "Bac+5"]
