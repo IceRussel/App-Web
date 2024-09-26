@@ -13,4 +13,4 @@ user_input = st.text_input("Tapez votre texte : ")
 st.write(user_input)
 
 # Image
-st.image("https://www.booska-p.com/wp-content/uploads/2022/08/Koba-LaD-Visu-News-1-1024x750.jpg")
+st.image("https://i.makeagif.com/media/6-13-2019/gLyUlA.gif")
