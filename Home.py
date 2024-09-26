@@ -8,4 +8,6 @@ st.title("Mon formulaire")
 st.write("Ceci est un formulaire de contrat")
 
 # Champ de saisi
-st.text_input("Tapez votre texte : ")
+user_input = st.text_input("Tapez votre texte : ")
+
+st.write(user_input)
