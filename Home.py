@@ -12,10 +12,7 @@ user_input = st.text_input("Tapez votre texte : ")
 
 st.write(user_input)
 
-# Image
-st.image("https://media0.giphy.com/media/IkPdFNLIcqITymFiJ3/giphy.gif?cid=6c09b952dj3916gklb7egdc5tgiqf0dcwkoq86ftta346gyt&ep=v1_gifs_search&rid=giphy.gif&ct=g")
-
-# Image 2
+# Image 1
 st.image("https://i.pinimg.com/originals/47/7a/86/477a86ad9caab74f42e4bf5357b70446.gif")
 
 # Video
@@ -23,3 +20,6 @@ st.video("https://www.youtube.com/watch?v=84034w0UhxI")
 
 # Sidebare
 st.sidebar.title("Koba la D aka Marcel Junior Loutarila")
+
+# Vidéo dans la sidebare
+st.sidebar.video("https://www.youtube.com/watch?v=-C9Izxw3rOw")
